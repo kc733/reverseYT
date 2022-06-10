@@ -1,0 +1,193 @@
+body {
+	background: #272829;
+}
+
+/*-- section 1 ---*/
+.MasterHead {
+	position: fixed;
+	top: 0;
+	z-index: 2020;
+	width: 100%;
+	height: 56px;
+	background: #272829;
+	margin: 0;
+}
+
+.container {
+	height: 56px;
+	width: 100%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start {
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	height: 56px;
+}
+
+.menuButton {
+	vertical-align: middle;
+	color: inherit;
+	outline: none;
+	background: none;
+	margin: 0;
+	border: none;
+	padding-top: 5px;
+	width: 55px;
+	height: 50px;
+	line-height: 0;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.menuIcon {
+	width: 35px;
+	height: 35px;
+}
+
+.menuLogo {
+	display: flex;
+	flex-direction: row;
+	width: 150px;
+
+}
+
+/*-- /section 1 ---*/
+
+
+/*-- section 2 ---*/
+
+.center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 0 1 728px;
+	min-width: 0px;
+}
+
+.menuSearch {
+	margin: 0 0 0 40px;
+	padding: 0 4px;
+	flex: 1;
+	flex-basis: 1e-9px;
+	position: relative;
+	height: 30px;
+	background-color: #48494a;
+	font-family: 'Mulish', sans-serif;
+	color: white;
+	border: 1px solid #696b6e;
+	outline: none;
+
+}
+
+.searchButton {
+	height: 32px;
+	width: 64px;
+	border: 1px solid #696b6e;
+	margin: 0;
+	cursor: pointer;
+	background-color: #696b6e;
+}
+
+.searchIcon{
+	height: 24px;
+	width: 24px;
+}
+
+/*-- /section 2 ---*/
+
+
+/*-- section 3 ---*/
+.end{
+	min-height: 225px;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.MasterHeadMenuButtons{
+	display: flex;
+	flex-direction: row;
+}
+
+.MasterHeadMenuButtons a{
+	text-decoration: none;
+}
+
+.about{
+	outline: none;
+}
+
+.aboutButton {
+	vertical-align: middle;
+	outline: none;
+	background: none;
+	margin: 0;
+	border: none;
+	padding-left: 2px;
+	width: 100%;
+	height: 100%;
+	line-height: 0;
+	cursor: pointer;
+	color: white;
+	font-family:'Mulish', sans-serif;
+	transition: color .5s;
+}
+.aboutButton:hover {
+	color: rgb(225, 20, 10);
+}
+
+.projects {
+	outline: none;
+}
+
+.projectsButton {
+	vertical-align: middle;
+	outline: none;
+	background: none;
+	margin: 0;
+	border: none;
+	padding-left: 2px;
+	width: 100%;
+	height: 100%;
+	line-height: 0;
+	cursor: pointer;
+	color: white;
+	font-family:'Mulish', sans-serif;
+	transition: color .5s;
+}
+
+.projectsButton:hover {
+	color: rgb(225, 20, 10);
+}
+
+.contact {
+	outline: none;
+}
+
+.contactButton {
+	vertical-align: middle;
+	outline: none;
+	background: none;
+	margin: 0;
+	border: none;
+	padding-left: 2px;
+	width: 100%;
+	height: 100%;
+	line-height: 0;
+	cursor: pointer;
+	color: white;
+	font-family:'Mulish', sans-serif;
+	transition: color .5s;
+}
+
+.contactButton:hover {
+	color: rgb(225, 20, 10);
+}
+
+/*-- /section 3 ---*/
