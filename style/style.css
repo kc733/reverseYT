@@ -54,14 +54,11 @@ body {
 	display: flex;
 	flex-direction: row;
 	width: 150px;
-
 }
-
 /*-- /section 1 ---*/
 
 
 /*-- section 2 ---*/
-
 .center {
 	display: flex;
 	flex-direction: row;
@@ -82,7 +79,6 @@ body {
 	color: white;
 	border: 1px solid #696b6e;
 	outline: none;
-
 }
 
 .searchButton {
@@ -98,7 +94,6 @@ body {
 	height: 24px;
 	width: 24px;
 }
-
 /*-- /section 2 ---*/
 
 
@@ -138,6 +133,7 @@ body {
 	font-family:'Mulish', sans-serif;
 	transition: color .5s;
 }
+
 .aboutButton:hover {
 	color: rgb(225, 20, 10);
 }
@@ -189,5 +185,72 @@ body {
 .contactButton:hover {
 	color: rgb(225, 20, 10);
 }
-
 /*-- /section 3 ---*/
+
+/*-- Banner ---*/
+.bannerMaster {
+	width: 100%;
+	height: 275px;
+	z-index: 2000;
+	flex: none;
+	position: absolute;
+    top: 56px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.bannerContainer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: white;
+}
+
+.bannerImage {
+	display: block;
+	position: relative;
+	height: 127px;
+}
+
+.bannerImagepng {
+	height: 100%;
+	width: 100%;
+}
+.bannerTextContainer {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+    padding: 16px 107px 4px;
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+    background-color: black;
+}
+
+.bannerTextHeader {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	max-width: 1284px;
+}
+
+.bannerText {
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	font-size: 50px;
+	font-style: italic;
+}
+
+.bannerP {
+	margin-top: 20px;
+}
+
+/*-- /Banner ---*/
